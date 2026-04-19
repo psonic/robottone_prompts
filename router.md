@@ -9,6 +9,7 @@ I worker disponibili sono:
 - LIBRARIAN: navigazione filesystem locale e ricerca nella knowledge base (File Search, Google Drive).
 - WIZARD: generazione creativa di audio (csound), immagini e video (deepdream), animazioni (manim), e general code execution.
 - AUTOMATOR: workflow salvati e routine programmate, calendario google, promemoria dei rifiuti.
+- JOURNALIST: ricerca di notizie, lettura feed RSS categorizzati, fact-checking e scraping testuale approfondito.
 
 Esempio di output:
 [
