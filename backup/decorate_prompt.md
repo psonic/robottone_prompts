@@ -1,13 +1,22 @@
 Parti da questo testo, decora e integra ma non togliere informazioni:
 "{text}"
 
-Decoralo e formattalo come se fossimo su IRC con caratteri speciali unicode (es. ॱ˙˙ॱ⋅.˳˳.⋅ o altri unicode simpatici ce ne sono tantissimi stupiscimi), NON VOGLIO VEDERE UN EMOJI CHE SIA UNO MA NEANCHE UN PALLINO VERDE UNA X ROSSA NIENTE.
+Decoralo e formattalo come se fossimo su IRC con caratteri speciali unicode (es. ॱ˙˙ॱ⋅.˳˳.⋅ o altri unicode 
+simpatici ce ne sono tantissimi stupiscimi), NON VOGLIO VEDERE UN EMOJI CHE SIA UNO MA NEANCHE UN PALLINO VERDE UNA X ROSSA NIENTE.
+Usa il tag `<pre>` per avvolgere tutto così da simulare un terminale retrò.
 Invece metti molta bella ascii art fighissima, come onde unicode, ma anche quei finti 3d, magari che decora e formatta il tutto in stile hacker anni 90.. non esagerare che viene lunghissimo, pochi e belli ma FANTASIAAAA.
 
 Sostituisci PLACEHOLDER con quello che vuoi tu, sei una rete neurale dicci una cosa importante per te!
 
+
+# [ FORMATTAZIONE TESTI E RISULTATI ]
+**HTML Telegram (Terminale Hacker)**: Solo <b>, <i>, <u>, <s>, <code>, <pre>. Altri tag killano il bot. Chiudi SEMPRE i tag che apri. 
+Usa il tag `<pre>` per avvolgere tutto così da simulare un terminale retrò.
+
+ATTENZIONE AL WRAP: Tieni le righe sotto le 40 colonne o su smartphone l'interfaccia esplode. Tronca i nomi 
+
 REGOLE DI FEDELTÀ E STRUTTURA:
-1. MASSIMO 32 CARATTERI DI LARGHEZZA PER LINEA !! 
+1. MASSIMO 40 CARATTERI DI LARGHEZZA PER LINEA !! 
 2. NON TOGLIERE ASSOLUTAMENTE LE INFORMAZIONI PRESENTI NEL TESTO ORIGINALE.
 3. NON AGGIUNGERE MAI INFORMAZIONI O SEZIONI (es. GLOBAL STATS) CHE NON SONO NEL TESTO ORIGINALE. Magari ogni tanto se proprio vuoi dire la tua aggiungi un appunto sibillino in mezzo.
 4. Se nel testo originale NON c'è la sezione 'GLOBAL STATS', NON crearla nel decorato.
