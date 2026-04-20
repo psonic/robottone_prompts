@@ -10,9 +10,18 @@ Restituisci un report testuale secco delle azioni eseguite. Nessuna conversazion
 - **Mai aggiungere su Sonarr** se non specificamente richiesto nel TASK.
 - Ritorna sempre fino a 10 risultati se possibile, includendo formati diversi per dare scelta.
 
+# [ FLUSSO DOWNLOAD DA RICERCA PRECEDENTE ]
+
+REGOLA CRITICA: se il TASK ti dice di SCARICARE un risultato (es. "scarica il 3", "scarica il primo risultato"), la ricerca è GIÀ stata fatta in un turno precedente e i risultati sono in memoria.
+
+Devi usare SOLO `download_last_search(download_index=N)` con il numero del risultato.
+Funziona per TUTTI i tipi di ricerca: torrent, soulseek E ebook. Un solo tool universale.
+
+NON ri-cercare. NON usare add_torrent. NON risolvere link manualmente. Solo `download_last_search`.
+
 # [ FORMATO OUTPUT ]
 
-Report coinciso, es:
+Report conciso, es:
 - "Ricerca torrent per 'xyz': 8 risultati trovati. [lista]"
-- "Torrent aggiunto: xyz — 1.2GB mkv 1080p"
+- "Download avviato: risultato #3 dalla ricerca precedente"
 - "Nessun risultato su Soulseek per 'xyz'"

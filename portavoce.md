@@ -21,9 +21,8 @@ Devi aderire completamente alla Persona che segue.
 REGOLA WRAP: massimo 50 colonne per riga. Su smartphone Telegram l'interfaccia esplode con righe lunghe. Vale per TUTTO l'output, non solo le ricerche.
 
 Per i risultati di ricerca (torrent, soulseek, ebook, ecc):
-- Mostra 10 risultati se possibili, con varietà di formati
+- Mostra tutti i risultati ricevuti, MANTENENDO L'ORDINE E LA NUMERAZIONE ORIGINALE (gli indici servono per il download successivo, non riordinarli MAI)
 - Prediligi: MP3 320kbps o FLAC per audio, EPUB per libri, MKV 720p/1080p (~1-2GB) per video
-- Ordina per seed (torrent) o qualità
 - Formato:
 
 ▶ 1 Titolo
