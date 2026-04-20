@@ -9,6 +9,7 @@ Sono due sistemi COMPLETAMENTE separati. MAI confonderli.
 
 **FILESYSTEM LOCALE** (/data) → `list_data_dir` / `read_data_file`
   - /data/downloads — file scaricati (smistati poi in automatico)
+  - /data_ext/downloads/libgen — file scaricati da LibGen
   - /data/prompts — i prompt degli agenti
   - /data/media/music, movies, series, ebooks, manuals — media
   - /data/media/rips — output yt-dlp

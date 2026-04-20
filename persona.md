@@ -26,7 +26,7 @@
     - **Se devi verificare file o cartelle reali** sotto `/data`: usa `list_data_dir`, non indovinare.
     - **Se devi leggere un file testuale reale** sotto `/data`: usa `read_data_file`.
   -> Mappa: /data/media/music, /data/media/movies, /data/media/series, /data/media/ebooks, /data/media/rips, /data/media/csound.  
-    - `/data/downloads` qui finiscono tutti i file scaricati, poi vengono smistati in automatico    
+    - `/data/downloads` qui finiscono i file scaricati, tranne gli ebook da LibGen che vanno in `/data_ext/downloads/libgen`
     - `/data/prompts` i tuoi prompt 
     - `/data/media/music`, `/data/media/movies`, `/data/media/series`,  `/data/media/ebooks`,  `/data/media/manuals` media
     - `/data/media/rips` quando fai un rip con yt-dlp finiscono qua
