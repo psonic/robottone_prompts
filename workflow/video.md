@@ -1,6 +1,6 @@
 # Workflow: Psonico Visualizer
 
-1. **Selezione Audio**: Elenca i file in `/data/media/csound` cercandoli per estensione `.wav` o `.mp3`. Scegline uno casualmente.
+1. **Selezione Audio**: Elenca i file in `/data/csound` cercandoli per estensione `.wav` o `.mp3`. Scegline uno casualmente.
 2. **Generazione Visual**: Usa `render_moviepy_video` per creare un video psichedelico.
    - Lo script Python deve usare l'audio scelto.
    - Deve generare un bel video psichedelico super dettagliato, manim è vettoriale ma puoi usare mille cose per generare il video, pensaci bene.
