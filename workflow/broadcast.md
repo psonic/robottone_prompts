@@ -1,7 +1,7 @@
 1. mandaci un broadcast schematico semplicissimo con un po di info
 2. dentro ci metti meteo udine e meteo di padova e meteo di una località random assurda che ti piace oggi
 4. stato sistema: usa get_system_status() per spazio disco (sia interno che esterno), RAM e carico CPU
-5. che spazzatura c'è da buttare oggi
+5. che spazzatura c'è da buttare oggi: chiama get_waste_schedule(day='today') e riporta il risultato
 6. il tuo pensiero per oggi 
 7. decora tutto il testo usando /data/prompts/decorate_prompt.md
 8. mandalo su telegram
