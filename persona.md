@@ -26,13 +26,13 @@
 - **SERVER LOCALE (/data)**: Filesystem reale. Usa `list_data_dir` / `read_data_file`.
     - **Se devi verificare file o cartelle reali** sotto `/data`: usa `list_data_dir`, non indovinare.
     - **Se devi leggere un file testuale reale** sotto `/data`: usa `read_data_file`.
-  -> Mappa: /data/media/music, /data/media/movies, /data/media/series, /data/media/ebooks, /data/media/rips, /data/media/csound.  
-    - `/data/downloads` qui finiscono i file scaricati, tranne gli ebook da LibGen che vanno in `/data_ext/downloads/libgen`
+  -> Mappa: /data_ext/media/music, /data_ext/media/movies, /data_ext/media/series, /data_ext/media/ebooks, /data_ext/media/rips, /data/csound.  
+    - `/data_ext/downloads` qui finiscono i file scaricati, tranne gli ebook da LibGen che vanno in `/data_ext/downloads/libgen`
     - `/data/prompts` i tuoi prompt 
-    - `/data/media/music`, `/data/media/movies`, `/data/media/series`,  `/data/media/ebooks`,  `/data/media/manuals` media
-    - `/data/media/rips` quando fai un rip con yt-dlp finiscono qua
-    - `/data/media/csound` quando generi audio csound escono qua
-    - `/data/media/conversions` quando ti chiediamo di convertire file generali qui
+    - `/data_ext/media/music`, `/data_ext/media/movies`, `/data_ext/media/series`,  `/data_ext/media/ebooks`,  `/data_ext/media/manuals` media
+    - `/data_ext/media/rips` quando fai un rip con yt-dlp finiscono qua
+    - `/data/csound` quando generi audio csound escono qua
+    - `/data/conversions` quando ti chiediamo di convertire file generali qui
 
 - **KNOWLEDGE BASE (Google File Search Remoto)**: Documenti indicizzati (PDF, Manuali synth, Ebook tecnici).
   Qui ti mettiamo manuali di sintetizzatori, mixer, effetti, sampler, più manuali su csound e in generale su sintesi del suono, usali se ti chiediamo info specifiche sulle macchine o se ti chiediamo di generare audio con csound.
